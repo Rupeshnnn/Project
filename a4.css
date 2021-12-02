@@ -1,0 +1,27 @@
+.device{
+    background-color: red;
+    color : white;
+    font-size: 30px;
+    height: 200px;
+    width:200px;
+    display: none;
+    
+}
+
+@media screen and (max-width:720px){
+    #t{
+        width: max(70%,400px);
+        background-color: blue;
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:720px) and (max-width : 1024px){
+    #d{
+        width: max(70%,400px);
+        background-color: blueviolet;
+        display: block;
+    }
+    
+}

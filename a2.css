@@ -1,0 +1,14 @@
+:root{
+    --bc : yellow;
+    --color : black; 
+    --font-size: 20px; 
+}
+
+.cla{
+    background-color: var(--bc);
+    border: 1px solid red;
+    color : var(--color);
+    width: 150px;
+    height :100px;
+    font-size: var(--font-size)
+}

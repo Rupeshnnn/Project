@@ -1,0 +1,27 @@
+
+:root{
+    --mobileheight : 200px;
+    --mobilewidth : 270px;
+    --Desktopeheight : 512px;
+    --Desktopwidth : 395px;
+    
+    --color1 : Red;
+    --color2 : green;
+
+
+}
+.device{
+    background-color: red;
+    color  : black;
+    font-size: 30px;
+    display : none
+}
+@media screen  {
+    #small {
+       max-width: var(--mobilewidth);
+       max-height: var(--mobileheight);
+       display: block;
+
+    }
+    
+}
